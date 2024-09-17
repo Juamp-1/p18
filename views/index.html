@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Freelance Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- Inicio (hero section) -->
+    <section id="inicio">
+      <h1>Bienvenido a mi portfolio</h1>
+      <p>Soy un freelance apasionado de la tecnología y el diseño.</p>
+      <button>Ver mis proyectos</button>
+    </section>
+
+    <!-- Sobre mí (about section) -->
+    <section id="sobre-mi">
+      <h2>Sobre mí</h2>
+      <p>
+        Soy un desarrollador web con experiencia en HTML, CSS, JavaScript y más.
+      </p>
+    </section>
+
+    <!-- Proyectos (projects section) -->
+    <section id="proyectos">
+      <h2>Mis proyectos</h2>
+      <div class="gallery">
+        <img src="project1.jpg" alt="Proyecto 1" />
+        <img src="project2.jpg" alt="Proyecto 2" />
+        <img src="project3.jpg" alt="Proyecto 3" />
+      </div>
+    </section>
+
+    <!-- Contacto (contact section) -->
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <form>
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" /><br /><br />
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" /><br /><br />
+        <label for="message">Mensaje:</label>
+        <textarea id="message" name="message"></textarea><br /><br />
+        <input type="submit" value="Enviar" />
+      </form>
+      <p>
+        También puedes contactarme en
+        <a href="mailto:tu@email.com">tu@email.com</a> o en
+        <a href="https://twitter.com/tu_twitter">Twitter</a>.
+      </p>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
